@@ -1,0 +1,13 @@
+filename,method,iou,success,angle,lighting,background,page,time_ms,likely_cause
+sample_01.jpg,canny,0.9938,True,straight,good,plain,flat,10.9000,
+sample_02.jpg,canny,0.9886,True,tilted,good,plain,flat,6.1000,
+sample_03.jpg,canny,0.9904,True,steep,good,plain,flat,5.5000,
+sample_04.jpg,canny,0.9933,True,tilted,dim,plain,flat,5.3000,
+sample_05.jpg,canny,0.9938,True,tilted,shadow,plain,flat,5.5000,
+sample_06.jpg,minarearect,0.8000,False,tilted,glare,plain,flat,8.4000,"detected quad is larger than the page (125%): page edge merged with a background object, shadow or table edge; fell back to minAreaRect: the outline was not a clean 4-sided polygon, and a rotated rectangle cannot follow perspective; glare: over-exposed area washes out part of the page border"
+sample_07.jpg,canny,0.9695,True,tilted,good,cluttered,flat,6.6000,
+sample_08.jpg,otsu,0.9843,True,tilted,good,low-contrast,flat,6.0000,
+sample_09.jpg,canny,0.9907,True,tilted,good,plain,curled,5.6000,
+sample_10.jpg,canny,0.9901,True,tilted,good,plain,folded,5.3000,
+sample_11.jpg,minarearect,0.7141,False,steep,shadow,cluttered,flat,6.1000,"detected quad is larger than the page (140%): page edge merged with a background object, shadow or table edge; fell back to minAreaRect: the outline was not a clean 4-sided polygon, and a rotated rectangle cannot follow perspective; steep angle: far edge is short, blurry and strongly foreshortened; shadow: the shadow boundary is a strong edge that can be mistaken for the page border; cluttered background: objects touching the page break or extend its outline"
+sample_12.jpg,canny,0.9887,True,straight,good,plain,flat,5.3000,

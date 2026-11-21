@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated scans (re-create with scan.py)
+output/*
+!output/.gitkeep
+
+# Generated figures (re-create with evaluate.py); results.csv / summary.md /
+# failure_analysis.md are kept because they are hand-checked report material.
+results/**/figures/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

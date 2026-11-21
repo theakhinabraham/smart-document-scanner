@@ -1,0 +1,13 @@
+filename,angle,lighting,background,page
+sample_01.jpg,straight,good,plain,flat
+sample_02.jpg,tilted,good,plain,flat
+sample_03.jpg,steep,good,plain,flat
+sample_04.jpg,tilted,dim,plain,flat
+sample_05.jpg,tilted,shadow,plain,flat
+sample_06.jpg,tilted,glare,plain,flat
+sample_07.jpg,tilted,good,cluttered,flat
+sample_08.jpg,tilted,good,low-contrast,flat
+sample_09.jpg,tilted,good,plain,curled
+sample_10.jpg,tilted,good,plain,folded
+sample_11.jpg,steep,shadow,cluttered,flat
+sample_12.jpg,straight,good,plain,flat

@@ -1,0 +1,13 @@
+# Smart Document Scanner - Python dependencies
+# Tested with Python 3.14 and: opencv-python 5.1, numpy 2.5, matplotlib 3.11,
+# pandas 3.1, streamlit 1.67, pytest 9.2, pytesseract 0.3.13.
+# The ranges let pip pick versions that match your Python (3.10+ recommended;
+# on 3.9 pip will install older releases within these ranges).
+
+opencv-python>=4.8,<6     # image processing (NOT opencv-python-headless: annotate.py needs windows)
+numpy>=1.24,<3
+matplotlib>=3.7,<4        # report figures
+pandas>=1.5,<4            # results tables
+streamlit>=1.50,<2        # demo app
+pytest>=7.0,<10           # tests
+pytesseract>=0.3.10,<0.4  # optional OCR wrapper (also needs the Tesseract program, see README)

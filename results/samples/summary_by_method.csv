@@ -1,0 +1,4 @@
+method,n,successes,success_rate,mean_iou
+canny,9,9,1.0,0.9887645847935429
+otsu,1,1,1.0,0.9843193944262103
+minarearect,2,0,0.0,0.7570728460284661
